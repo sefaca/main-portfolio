@@ -311,8 +311,7 @@ button:hover {
         /* left: 150px; */
         margin-left: 0;
         display: flex;
-        flex-direction: column;
-        align-items: end;
+        justify-content: center;
     }
     
     button {
@@ -331,7 +330,7 @@ button:hover {
     }
 
     .cont {
-        width: 75%;
+        width: 100%;
     }
 
     .main-desc::before {

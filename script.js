@@ -1,9 +1,3 @@
-        // const toggle = document.getElementById('toggleDark');
-        // const body = document.querySelector('body');
-
-        // toggle.addEventListener('click', function() {
-        //     this.classList.toggle('fa-solid fa-toggle-off');
-        // })
 
 var toggle = document.getElementById('container');
 var body = document.querySelector('body');
@@ -22,3 +16,10 @@ function languageChange(lang) {
     }
 }
     
+function languageChange_project(lang) {
+    if (lang == "es") {
+        location.href = "./proyectos.html";
+    } else if (lang == "en") {
+        location.href = "./projects.html";
+    }
+}
