@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <body data-theme="light">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">folio<b>.</b></div>
+                <ul class="nav-main">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="#">sobre mí</a></li>
+                    <li><a href="#">habilidades</a></li>
+                    <li><a href="./proyectos.html" target="_blank">proyectos</a></li>
+                </ul>
+                <div class="nav-links">
+                    <a href="https://www.linkedin.com/in/sergio-falc%C3%B3n-de-la-calle-083787195/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-solid fa-toggle-on" id="toggleDark"></i></a>
+                </div>
+                <div class="nav-lang">
+                    <img src="./img/spain.png" onclick="languageChange('es')" alt="Spanish flag">
+                    <img src="./img/united-kingdom.png" onclick="languageChange('en')" alt="English Flag">
+                </div>
+            </nav>
+           
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typingEffect = new Typed(".multiText", {
+                strings : ["coder", "studient", "designer"],
+                loop : true,
+                typeSpeed : 100,
+                backSpeed : 80,
+                backDelay : 1500
+            })
+    
+        </script>
+</body>
+</html>
