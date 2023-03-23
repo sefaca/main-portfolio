@@ -274,16 +274,20 @@ button:hover {
         order: 2;
         display: flex;
         align-items: center;
-        margin-right: -18rem;
+        margin-right: -9rem;
     }
 
     .nav-lang {
         order: 3;
         display: flex;
         align-items: center;
-        margin-right: 8rem;
+        margin-right: 5rem;
         width: 16px;
         height: 16px;
+    }
+
+    .nav-lang img {
+        margin-right: 0.5rem;
     }
 
     b {
@@ -393,6 +397,7 @@ button:hover {
         top: 12%;
         left: 32%;
         margin-left: 10rem;
+        margin-top: 2rem;
         background: linear-gradient(45deg, #002d9e, #ff004f);
         animation: object2 6s linear infinite;
     }   
