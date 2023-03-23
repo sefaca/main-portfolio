@@ -274,20 +274,20 @@ button:hover {
         order: 2;
         display: flex;
         align-items: center;
-        margin-right: -9rem;
+        margin-right: -6rem;
     }
 
     .nav-lang {
         order: 3;
         display: flex;
         align-items: center;
-        margin-right: 5rem;
+        margin-right: 3rem;
         width: 16px;
         height: 16px;
     }
 
     .nav-lang img {
-        margin-right: 0.5rem;
+        /* margin-right: 0.5rem; */
     }
 
     b {
@@ -295,10 +295,14 @@ button:hover {
         color: #002d9e;
     }
 
+    .nav-main li {
+        margin: 0 0.6rem;
+    }
+
     .nav-main li a {
         font-size: 0.9rem;
         color: 	#002d9e;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         text-decoration: none;
         text-transform: capitalize;
     }
